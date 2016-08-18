@@ -10,7 +10,12 @@ var React = require('react');
 
 var About = (props) => {
   return (
-    <h3>About Component</h3>
+    <div>
+      <h1 className="text-center">About</h1>
+      <p>React Weather is a very minimal and basic weather application that requests you to enter a place and then displays the most basic weather information.</p>
+      <p>The link to the Github Repo for this project is <a href="https://github.com/afirewillrise/React-Weather" target="_onblank">ReactWeather Github Repo</a></p>
+    </div>
+
   );
 };
 
